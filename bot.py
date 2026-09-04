@@ -55,5 +55,5 @@ async def main_async():
 def main():
     asyncio.run(main_async())
 
-if name == "main":
+if __name__ == "__main__":
     main()
